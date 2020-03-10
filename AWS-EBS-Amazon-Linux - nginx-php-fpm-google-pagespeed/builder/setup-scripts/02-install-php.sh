@@ -14,38 +14,32 @@
 
 . $BUILDER_DIR/CONFIG
 
-yum install php71 \
-            php71-common \
-            php71-recode \
-            php71-tidy \
-            php71-xmlrpc \
-            php71-pspell \
-            php71-sqlite3 \
-            php71-memcache \
-            php71-mbstring \
-            php71-imap \
-            php71-intl \
-            php71-gd \
-            php71-imagick \
-            php71-apcu \
-            php71-curl \
-            php71-dom \
-            php71-mcrypt \
-            php71-mysql \
-            php71-bcmath \
-            php71-cli \
-            php71-common \
-            php71-devel \
-            php71-mysqlnd \
+yum install php73 \
+            php73-common \
+            php73-bcmath \
+            php73-json \
+            php73-pdo \
+            php73-pdo_mysql \
+            php73-ldap \
+            php73-xmlrpc \
+            php73-memcache \
+            php73-mbstring \
+            php73-imap \
+            php73-intl \
+            php73-gd \
+            php73-imagick \
+            php73-apcu \
+            php73-curl \
+            php73-dom \
+            php73-cli \
+            php73-devel \
             php71-pecl-apcu \
             php71-pecl-imagick \
-            php71-pecl-memcache \
-            php71-pecl-memcached \
-            php71-pecl-oauth \
-            php71-pecl-ssh2 \
-            php71-soap \
-            php71-xml \
-            php71-xmlrpc \
-            php71-pecl-uuid \
-            php71-opcache \
+            php73-pecl-memcache \
+            php73-pecl-memcached \
+            php73-soap \
+            php73-xml \
+            php73-xmlrpc \
+            php73-pecl-uuid \
+            php73-opcache \
             -y

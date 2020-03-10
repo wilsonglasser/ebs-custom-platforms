@@ -20,13 +20,13 @@ provisioner:
   flavor: amazon
 
 metadata:
-  maintainer: Andrei Neacsu
+  maintainer: Wilson Glasser
   description: Amazon OS nginx php php-pfm
   operating_system_name: Amazon linux
-  operating_system_version: 2016.09.1
-  programming_language_name: ECMAScript
-  programming_language_version: ECMA-262
+  operating_system_version: 2018.03.0
+  programming_language_name: PHP
+  programming_language_version: PHP-7.3
   framework_name: HPH
-  framework_version: 7.1
+  framework_version: 7.3
   app_server_name: "none"
   app_server_version: "none"

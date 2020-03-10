@@ -17,4 +17,9 @@
 . /etc/NginxPlatform/platform.config
 
 chown -R $APP_USER:$APP_USER $LIVE_DIR
+
+chmod g+s $LIVE_DIR/storage
+setfacl -Rb $LIVE_DIR/storage
+setfacl -Rm d:u::rwx,d:g::rwx,d:o::rwx,d:m:rwx,u::rwx,g::rwx,o::rwx $LIVE_DIR/storage
+
 #chown -R $APP_USER:$APP_USER $EB_APP_LOGS_DIR

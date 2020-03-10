@@ -20,10 +20,10 @@ then
     rm -f /etc/logrotate.d/nginx
 fi
 
-if [ -f /etc/logrotate.d/php-fpm-7.1 ]
+if [ -f /etc/logrotate.d/php-fpm-7.3 ]
 then
-    /opt/elasticbeanstalk/bin/log-conf -n'php-fpm' -l'/var/log/php-fpm/7.1/*log' -f /opt/elasticbeanstalk/support/conf/php-fpm.logrotate.conf
-    rm -f /etc/logrotate.d/php-fpm-7.1
+    /opt/elasticbeanstalk/bin/log-conf -n'php-fpm' -l'/var/log/php-fpm/7.3/*log' -f /opt/elasticbeanstalk/support/conf/php-fpm.logrotate.conf
+    rm -f /etc/logrotate.d/php-fpm-7.3
 fi
 
 if [ -d /etc/healthd -a ! -d /var/log/nginx/healthd ]

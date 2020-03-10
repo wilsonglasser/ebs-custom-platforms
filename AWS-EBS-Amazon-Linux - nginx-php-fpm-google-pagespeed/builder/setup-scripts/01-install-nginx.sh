@@ -16,7 +16,7 @@
 
 rm -rf /etc/apache2/
 
-yum install -y nginx php71-fpm
+yum install -y nginx php73-fpm
 
 mkdir -p /var/cache/nginx/fastcgi
 
